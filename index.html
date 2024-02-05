@@ -14,14 +14,14 @@
 	<style>
 		
 		body {
-			background-color:aquamarine;
+			background-color: gray;
 			font-family: Verdana;
 			text-align: center;
 		}
 
 		
 		form {
-			background-color: #fff;
+			background-color: whitesmoke;
 			max-width: 500px;
 			margin: 50px auto;
 			padding: 30px 20px;
@@ -61,23 +61,21 @@
 
 		
 		button {
-			background-color: #05c46b;
-			border: 1px solid #777;
+			background-color: gray;
+			border: 1px solid gray;
 			border-radius: 2px;
 			font-family: inherit;
 			font-size: 21px;
 			display: block;
 			width: 100%;
-			margin-top: 50px;
-			margin-bottom: 20px;
+			margin-top: 60px;
+			margin-bottom: 30px;
 		}
 	</style>
 </head>
 
 <body>
-	<h1>Survey Form</h1>
-
-	
+	<h1>college survey form</h1>
 	<form id="form">
 
 		
@@ -96,7 +94,7 @@
 				Email
 			</label>
 
-			<!-- Input Type Email-->
+			
 			<input type="email" id="email"
 				placeholder="Enter your email" />
 		</div>
@@ -110,7 +108,8 @@
 			<input type="text" id="age"
 				placeholder="Enter your age" />
 		</div>
-                <div class="form-control">
+
+        <div class="form-control">
 			<label for="college" id="label-college">
 				college
 			</label>
@@ -119,6 +118,7 @@
 			    placeholder="Enter your college or university">
 		</div>
 
+		
 		<div class="form-control">
 			<label for="role" id="label-role">
 				Which option best describes you?
@@ -143,43 +143,43 @@
 			</label>
 			
 			<label for="inp-1">
-				<input type="checkbox" name="inp">C
+				<input type="radio" name="inp">C
 				</input>
 			</label>
 			<label for="inp-2">
-				<input type="checkbox" name="inp">C++
+				<input type="radio" name="inp">C++
 				</input>
 			</label>
 			<label for="inp-3">
-				<input type="checkbox" name="inp">C#
+				<input type="radio" name="inp">C#
 				</input>
 			</label>
 			<label for="inp-4">
-				<input type="checkbox" name="inp">Java
+				<input type="radio" name="inp">Java
 				</input>
 			</label>
 			<label for="inp-5">
-				<input type="checkbox" name="inp">Python
+				<input type="radio" name="inp">Python
 				</input>
 			</label>
 			<label for="inp-6">
-				<input type="checkbox" name="inp">JavaScript
+				<input type="radio" name="inp">JavaScript
 				</input>
 			</label>
 			<label for="inp-7">
-				<input type="checkbox" name="inp">React
+				<input type="radio" name="inp">React
 				</input>
 			</label>
 			<label for="inp-7">
-				<input type="checkbox" name="inp">Angular
+				<input type="radio" name="inp">Angular
 				</input>
 			</label>
 			<label for="inp-7">
-				<input type="checkbox" name="inp">Django
+				<input type="radio" name="inp">Django
 				</input>
 			</label>
 			<label for="inp-7">
-				<input type="checkbox" name="inp">Spring
+				<input type="radio" name="inp">Spring
 				</input>
 			</label>
 		</div>
@@ -188,7 +188,7 @@
 
 		
 		<button type="submit" value="submit">
-			Submit
+			submit
 		</button>
 	</form>
 </body>
